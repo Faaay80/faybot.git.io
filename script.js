@@ -20,12 +20,13 @@ clickButton.addEventListener('click', function () {
 
 document.getElementById("click-button").addEventListener("click", function() {
     var cookie = document.getElementById("cookie");
-    cookie.classList.add("roll-animation");
+    cookie.classList.add("heartbeat-animation");
     
     setTimeout(function() {
-        cookie.classList.remove("roll-animation");
+        cookie.classList.remove("heartbeat-animation");
     }, 1000); // Durée de l'animation en millisecondes (ici, 1 seconde)
 });
+
 
 
 
