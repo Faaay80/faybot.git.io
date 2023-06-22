@@ -16,15 +16,15 @@
 
 
 
-@keyframes roll {
+@keyframes heartbeat {
     0% {
-        transform: rotateZ(0); /* Rotation de départ (pas de rotation) */
+        transform: scale(1); /* Taille normale */
     }
     50% {
-        transform: rotateZ(-360deg); /* Rotation pendant la roulade arrière (360 degrés dans le sens inverse des aiguilles d'une montre) */
+        transform: scale(1.2); /* Taille agrandie */
     }
     100% {
-        transform: rotateZ(0); /* Retour à la rotation de départ */
+        transform: scale(1); /* Retour à la taille normale */
     }
 }
 
