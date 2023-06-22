@@ -91,8 +91,9 @@ body {
 
 /* quand je clique sur le button mon image fait un salto arriere*/
 
-.roll-animation {
-    animation-name: roll;
-    animation-duration: 3s; /* Durée de l'animation en secondes */
+.heartbeat-animation {
+    animation-name: heartbeat;
+    animation-duration: 1s; /* Durée de l'animation en secondes */
     animation-fill-mode: forwards; /* Garde la dernière étape de l'animation après son exécution */
+    transform-origin: center; /* Point de transformation au centre de l'image */
 }
