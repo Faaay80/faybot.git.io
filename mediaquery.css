@@ -1,0 +1,30 @@
+/* Styles pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    /* Ajoutez vos styles spécifiques pour les petits écrans ici */
+}
+
+/* Styles pour les écrans de taille moyenne */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Ajoutez vos styles spécifiques pour les écrans de taille moyenne ici */
+}
+
+/* Styles pour les écrans de grande taille */
+@media only screen and (min-width: 1025px) {
+    /* Ajoutez vos styles spécifiques pour les grands écrans ici */
+}
+
+
+
+
+@keyframes roll {
+    0% {
+        transform: rotateZ(0); /* Rotation de départ (pas de rotation) */
+    }
+    50% {
+        transform: rotateZ(-360deg); /* Rotation pendant la roulade arrière (360 degrés dans le sens inverse des aiguilles d'une montre) */
+    }
+    100% {
+        transform: rotateZ(0); /* Retour à la rotation de départ */
+    }
+}
+
