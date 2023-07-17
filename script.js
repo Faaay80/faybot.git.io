@@ -26,15 +26,27 @@ cookie.addEventListener('click', function () {
 // });
 
 
-
+                    //achat
 
 idleButton.addEventListener('click', function () {
-    console.log("sdfghjk")
+    console.log("achat")
     if(cookieCount >= 100) {
         cookieCount -= 100
         cookie.src = this.querySelector('img').src
     }
 });
+
+idleButton.addEventListener('click', function () {
+    console.log("achat")
+    if(cookieCount >= 700) {
+        cookieCount -= 700
+        cookie.src = this.querySelector('img').src
+    }
+});
+
+
+  
+
 
 
 
