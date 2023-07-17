@@ -7,7 +7,7 @@
 
 /* couleur de l'arrier plan */
 body {
-   background-color: teal;
+   background-image: url(/img/gifback.gif);
     background-size: cover;
     color: white;
 }
