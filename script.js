@@ -14,35 +14,58 @@ cookie.addEventListener('click', function () {
 
 
 
-/* clique button pour le chnagement de nombre */
 
-// document.getElementById("click-button").addEventListener("click", function() {
-//     var cookie = document.getElementById("cookie");
-//     cookie.classList.add("heartbeat-animation");
-    
-//     setTimeout(function() {
-//         cookie.classList.remove("heartbeat-animation");
-//     }, 1000); // Durée de l'animation en millisecondes (ici, 1 seconde)
-// });
+/********* Boutiques ***********/ 
 
-
-                    //achat
-
-idleButton.addEventListener('click', function () {
-    console.log("achat")
+idle.addEventListener('click', function () {
+    console.log("idle")
     if(cookieCount >= 100) {
         cookieCount -= 100
         cookie.src = this.querySelector('img').src
     }
 });
 
-idleButton.addEventListener('click', function () {
-    console.log("achat")
+doublejump.addEventListener('click', function () {
+    console.log("doublejump")
     if(cookieCount >= 700) {
         cookieCount -= 700
         cookie.src = this.querySelector('img').src
     }
 });
+
+jump.addEventListener('click', function () {
+    console.log("jump")
+    if(cookieCount >= 800) {
+        cookieCount -= 800
+        cookie.src = this.querySelector('img').src
+    }
+});
+
+run.addEventListener('click', function () {
+    console.log("run")
+    if(cookieCount >= 900) {
+        cookieCount -= 900
+        cookie.src = this.querySelector('img').src
+    }
+});
+
+speed.addEventListener('click', function () {
+    console.log("Full-Run-Turn")
+    if(cookieCount >= 2500) {
+        cookieCount -= 2500
+        cookie.src = this.querySelector('img').src
+    }
+});
+
+/****************************************************/
+
+
+
+
+
+
+
+
 
 
   
