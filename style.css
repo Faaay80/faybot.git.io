@@ -9,7 +9,7 @@
 body {
    background-image: url(./img/gifback.gif);
     background-size: cover;
-    color: white;
+    color: rgb(10, 225, 211);
 }
 
 /**************************************************/
@@ -94,7 +94,7 @@ body {
 
 .table h1{
     margin-bottom: 30px;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 225, 211);
 
 }
 
@@ -122,6 +122,41 @@ body {
     transition: background-color 0.3s ease;
   }
 
+  /**** bonus *******/
+
+  #bonus a {
+    color: #fff;
+    background-color: #ba4f4f;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+
+  /************effets ***********/
+  #cookie {
+    animation: heartbeat 2s infinite linear;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
 
   
 
