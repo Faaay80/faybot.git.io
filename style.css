@@ -49,6 +49,11 @@ body {
     margin-bottom: 10px; /* Ajouter une marge en bas du nombre */
 }
 
+h2{
+    background-color: #f05a5a;
+    border-radius: 15px;
+}
+
 
 
 /**************************************************/
@@ -182,7 +187,26 @@ body {
 
   
 
+  h2 {
+    color: #fff;
+    background-color: #c44545;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  h2:hover {
+    color: #ffffff;
+    background-color: #26b9de;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 0 #000;
+  }
+  
 
+  
+
+  
 
 
   
