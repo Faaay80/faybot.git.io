@@ -131,6 +131,8 @@ body {
     text-decoration: none;
     border-radius: 20px;
   }
+
+  
   
 
   /************effets ***********/
@@ -155,7 +157,34 @@ body {
       transform: scale(1);
     }
   }
+
+
+
+
+  /*****button ****************/
+
+  #bonus a {
+    color: #fff;
+    background-color: #c44545;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
   
+  #bonus a:hover {
+    color: #ffffff;
+    background-color: #26b9de;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 0 #000;
+  }
+  
+
+  
+
+
+
+
   
 
   

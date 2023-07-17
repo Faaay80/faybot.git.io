@@ -6,14 +6,23 @@ const cookie = document.getElementById('cookie');
 const cookieCountSpan = document.getElementById('cookie-count');
 const clickButton = document.getElementById('click-button');
 const idleButton = document.getElementById('idle');
+const mutliButton = document.getElementById('mutli');
 
+let nb_cookies_par_click = 1;
 cookie.addEventListener('click', function () {
-    cookieCount++;
+    cookieCount += nb_cookies_par_click;
     cookieCountSpan.textContent = cookieCount;
 });
 
 
-
+/********* Multiplicateur */
+mutliButton.addEventListener('click', function () {
+    console.log("multi")
+    if(cookieCount >= 1) {
+        cookieCount -= 1
+        nb_cookies_par_click = nb_cookies_par_click * 2
+    }
+});
 
 /********* Boutiques ***********/ 
 
